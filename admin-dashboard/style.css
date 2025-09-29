@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root{
+    --drawer-color: rgb(248,248,250);
+    --gray: rgb(184,188,189);
+    --letter-gray: rgb(141,144,145);
+    --green-icon: rgb(121,137,130);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.drawer-bar{
+    background-color: var(--drawer-color);
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.drawer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 4rem;
+    margin: 1rem 0rem;
+    margin-bottom: 1.9rem;
+}
+.drawer-logo-img{
+    width: 30%;
+    height: 100%;
+}
+.drawer-logo-span{
+    font-weight: bold;
+}
+.drawer-marketing-list{
+    width: 100%;
+}
+.drawer-marketing-span{
+    color: var(--gray);
+    font-size: small;
+    margin-left: 2rem;
+}
+.drawer-marketing-ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+.list-element{
+    display: flex;
+    height: 2.5rem;
+    width: 100%;
+}
+.list-a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: var(--letter-gray);
+    text-decoration: none;
+    padding-left: 2rem;
+    gap: 0.3rem;
+}
+.list-a svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--green-icon);
+}
+
+.main-body{
+    width: 80%;
+    background-color: white;
+}
+.drawer-button{
+    border: none;
+}

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Dancing+Script:wght@400..700&display=swap');
+
+:root{
+    --blue: rgb(75,100,242);
+    --gray: rgb(125,128,134);
+    --semiwhite: rgb(237, 239, 254);
+    --semiblue: rgb(81,113,219);
+    --h1-blue: rgb(73,102,243)
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{   
+    font-family: "Alan Sans";
+    height: 100vh;
+}   
+.first-part{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/paper.jpg);
+    background-color: rgba(255, 255, 255, 0.974);
+    background-blend-mode: overlay;
+}
+.header-list{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+.header-list li:first-child{
+    display: flex;
+    height: 4.5rem;
+    width: 8rem;
+    margin-right: auto;
+    margin-left: 9rem;
+    align-items: center;
+}
+.header-list li:last-child{
+    display: flex;
+    height: 4.5rem;
+    width: 8rem;
+    margin-left: auto;
+    margin-right: 9rem;
+    align-items: center;
+}
+.header-list li{
+    height: 4.5rem;
+    width: 5rem;
+}
+.header-list li a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: var(--gray);
+}
+.blue-button{
+    display: flex;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    color: white;
+    background-color: var(--blue);
+    justify-content: center;
+    border:none;
+    border-radius: 20rem;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.586);
+}
+.header-logo{
+    width: 100%;
+    height: 70%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main-body{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-button1{
+    border: none;
+    background-color: var(--semiwhite);
+    color: var(--semiblue);
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap:6px;
+}
+.main-button1 svg{
+    width: 12px;
+    fill: var(--blue)
+}
+.main-tittle{
+    text-align: center;
+    width: 80%;
+    font-weight: 420;
+    font-size: 420%;
+    margin-bottom: 1.5rem;
+}
+.main-tittle-kinetic{
+    color: var(--h1-blue);
+}
+.main-text{
+    text-align: center;
+    width: 59%;
+    font-weight: lighter;
+    font-size: larger;
+    margin-bottom: 2rem;
+}
+.main-cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 5rem 0rem;
+}
+.main-cards-grid{
+    display: grid;
+    grid-template-columns: 20rem 23rem 20rem;
+    justify-content: center;
+    margin-top: 25px;
+    width: 100%;
+    column-gap: 2rem;
+}
+.white-card{
+  width: 100%;
+  background-color: white; 
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+.main-card-1{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
