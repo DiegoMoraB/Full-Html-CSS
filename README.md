@@ -10,3 +10,5 @@ This project is an **HTML & CSS implementation** inspired by the following desig
 
 These designs were used **only as visual/UX/UI references for learning and practice purposes**.  
 All design rights belong to their respective authors.
+
+BillyELClavo.
